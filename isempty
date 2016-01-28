@@ -1,0 +1,13 @@
+#!/bin/bash
+
+RED='\e[1;31m'
+GREEN='\e[1;32m'
+NC='\e[0m' # No Color
+
+
+if ls -l $(pwd)/* &> /dev/null
+then
+echo -e "O diretório ${RED}NÃO ${NC}está vazio!"
+else
+echo -e "${GREEN}Diretório vazio.${NC}"
+fi
