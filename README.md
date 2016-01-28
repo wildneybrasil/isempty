@@ -1,18 +1,21 @@
 # isempty
-Script para verificar se o atual diretório está vazio ou não
-
-Para Instalar:
-
-Dar permissão de execução e movê-lo para /usr/local/bin/
-
-$ chmod +x isempty
-$ sudo mv isempty /usr/local/bin/
 
 
-Resultado
+Script para verificar se o atual diretório está vazio ou não.
 
+## Instalação
+
+1. Dar permissão de execução ao arquivo `isempty`.
+2. movê-lo para `/usr/local/bin/`.
+
+## Resultado
+
+```bash
 $ isempty 
 O diretório NÃO está vazio!
+```
 
+```bash
 $ isempty 
 Diretório vazio.
+```
